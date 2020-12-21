@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY')
+API_KEY = environ.get('API_KEY', '2f124e7f5b8b5030ef15de0eb87178277f07628d')
 
 
 bot = Client('clickyfly bot',
@@ -57,7 +57,7 @@ async def link_handler(bot, message):
 
 async def get_shortlink(link):
     url = 'https://clickyfly.com/api'
-    params = {'api': '2f124e7f5b8b5030ef15de0eb87178277f07628d', 'url': link}
+    params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
         async with session.get(url, params=params, raise_for_status=True) as response:
