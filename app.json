@@ -22,6 +22,11 @@
             "description": "Get this value from https://my.telegram.org",
             "required": true,
             "value": ""
+        },
+        "API_KEY": {
+            "description": "If you have ClickyFly API you can put yours. But not recommended.",
+            "required": false,
+            "value": ""
         }
     },
     "addons": [],
