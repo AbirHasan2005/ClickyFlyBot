@@ -51,9 +51,8 @@ async def link_handler(bot, message):
             ),
             quote=True
         )
-        except Exception as e:
-            await message.reply(f'Error: {e}', quote=True)
-
+    except Exception as e:
+        await message.reply(f'Error: {e}', quote=True)
 
 async def get_shortlink(link):
     url = 'https://clickyfly.com/api'
