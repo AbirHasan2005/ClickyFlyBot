@@ -24,8 +24,8 @@
             "value": ""
         },
         "API_KEY": {
-            "description": "If you have ClickyFly API you can put yours. But not recommended.",
-            "required": false,
+            "description": "If you have ClickyFly API than put it. Without it bot will not work.",
+            "required": true,
             "value": ""
         }
     },
