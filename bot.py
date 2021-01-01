@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY', '2f124e7f5b8b5030ef15de0eb87178277f07628d')
+API_KEY = environ.get('API_KEY')
 
 
 bot = Client('clickyfly bot',
