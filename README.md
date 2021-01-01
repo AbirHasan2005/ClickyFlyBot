@@ -18,6 +18,7 @@ This using **ClickyFly** API so there are some issues to get **ClickyFly** API K
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Get this from [telegram.org](https://my.telegram.org/apps)
 * `API_HASH`: Get this from [telegram.org](https://my.telegram.org/apps)
+* `API_KEY`: If you got your own ClickyFly API than put it. Else bot will not work.
 
 
 ## Follow on:
